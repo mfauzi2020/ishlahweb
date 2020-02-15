@@ -23,6 +23,7 @@
     <title>LDK ISHLAH Y.A.I</title>
 
     <style>
+      /* CSS next/perv page */
       ul.pagination{
         display: inline-block;
         padding: 0;
@@ -232,6 +233,7 @@
     </div>
     </div>
     </div>
+    <!-- Awal Next/Perv Page-->
     <div class="center">
       <ul class="pagination">
         <li><a href="#">«</a></li>
