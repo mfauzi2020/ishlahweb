@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css">
     <!-- javascript -->
     <link rel="stylesheet" href="js/script.js" >
     
@@ -18,11 +19,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">    
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    
     <title>LDK ISHLAH Y.A.I</title>
 
     <style>
-      
+      ul.pagination{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+      }
+      ul.pagination li {display: inline;}
+      ul.pagination li a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+      }
+      ul.pagination li a.active{
+        background-color: lightgreen;
+        color: white;
+        border: 1px solid lightgreen;
+      }
+      ul.pagination li a:hover:not(.active) { background-color: #ddd; }
+      div.center {text-align: center;}      
     </style>
   </head>
   <body>
@@ -103,33 +124,76 @@
     </section>
 
 
-    <!-- akhir carousel -->
-
-    <!-- test -->
-    
-    <!-- awal Content visi-->
-
-
-    <div class="container text-center mt-5 mb-5 fluid">
-      <h1 class="visi pb-4">VISI </h1>
-      <p class="text-justify" style="font-weight: 700;">" Terbentuk dan terwujudnya mahasiswa, karyawan dan segenap civitas akademika LPT Y.A.I yang memiliki keunggulan, moralitas islam, intelektualitas, humanitas dan profesionalitas sehingga terwujudnya peradaban islam " </p>
-
-    </div>
-    <!-- akhir visi -->
-    
-    
-    
+    <!-- akhir carousel --> 
     <!-- awal program kerja -->
     <section class="proker ">
     <div class="programkerja pb-5">
-    <div class="container text-center ">
-    <h1 class="pt-5 pb-4" style="margin-top: 100px;">PROGRAM KERJA</h1>
+    <div class="container text-center">
+    <h1 class="pt-5 pb-4" style="margin-top: 10px;">"Kegiatan Ishlah Tahun 2019" </h1>
     <div class="row mt-3 pt-3">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <figure class="figure ">
+          <a href=""> <img src="img/6.png" alt=""class=" figure-img img-fluid"></a>
+          <fofigurecaption class="figure-caption"> 
+        <h5>Doa</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+        <figure class="figure ">
+          <a href=""> <img src="img/6.png " alt=""class=" figure-img img-fluid"></a>
+          <figurecaption class="figure-caption"> 
+        <h5>Doa</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <figure class="figure ">
+          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
+          <figurecaption class="figure-caption"> 
+        <h5>Pengabul</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <figure class="figure ">
+          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
+          <figurecaption class="figure-caption"> 
+        <h5>Pengabul</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row mt-2 pt-2">
       <div class="col-sm-12 col-md-6 col-lg-3">
         <figure class="figure ">
           <a href=""> <img src="img/6.png" alt=""class=" figure-img img-fluid"></a>
           <fofigurecaption class="figure-caption"> 
+        <h5>Doa</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <figure class="figure ">
+          <a href=""> <img src="img/6.png " alt=""class=" figure-img img-fluid"></a>
+          <fofigurecaption class="figure-caption"> 
+        <h5>Doa</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <figure class="figure ">
+          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
+          <fofigurecaption class="figure-caption"> 
         <h5>Pengabul</h5>   
+        </figurecaption>
+        </figure>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3"> 
+        <figure class="figure ">
+          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
+          <figurecaption class="figure-caption"> 
+        <h5>Pengabul</h5>  
         </figurecaption>
         </figure>
       </div>
@@ -137,49 +201,15 @@
         <figure class="figure ">
           <a href=""> <img src="img/6.png " alt=""class=" figure-img img-fluid"></a>
           <figurecaption class="figure-caption"> 
-        <h5>Pengabul</h5>   
-        </figurecaption>
-        </figure>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <figure class="figure ">
-          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
-          <figurecaption class="figure-caption"> 
-        <h5>Pengabul</h5>   
-        </figurecaption>
-        </figure>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <figure class="figure ">
-          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
-          <figurecaption class="figure-caption"> 
-        <h5>Pengabul</h5>   
-        </figurecaption>
-        </figure>
-      </div>
-    </div>
-    <div class="row mt-3 pt-3">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <figure class="figure ">
-          <a href=""> <img src="img/6.png" alt=""class=" figure-img img-fluid"></a>
-          <fofigurecaption class="figure-caption"> 
-        <h5>Pengabul</h5>   
+        <h5>Doa</h5>   
         </figurecaption>
         </figure>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-3">
         <figure class="figure ">
           <a href=""> <img src="img/6.png " alt=""class=" figure-img img-fluid"></a>
-          <fofigurecaption class="figure-caption"> 
-        <h5>Pengabul</h5>   
-        </figurecaption>
-        </figure>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <figure class="figure ">
-          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
-          <fofigurecaption class="figure-caption"> 
-        <h5>Pengabul</h5>   
+          <figurecaption class="figure-caption"> 
+        <h5>Doa</h5>   
         </figurecaption>
         </figure>
       </div>
@@ -191,8 +221,26 @@
         </figurecaption>
         </figure>
       </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 ">
+        <figure class="figure ">
+          <a href=""> <img src="img/2.png " alt=""class=" figure-img img-fluid"></a>
+          <figurecaption class="figure-caption"> 
+        <h5>Pengabul</h5>   
+        </figurecaption>
+        </figure>
+      </div>
     </div>
     </div>
+    </div>
+    <div class="center">
+      <ul class="pagination">
+        <li><a href="#">«</a></li>
+        <li><a class="active" href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">»</a></li>
+      </ul>
     </div>
   
 </div>
@@ -201,150 +249,6 @@
 
     <!-- akhir program kerja -->
 
-    <!-- statement -->
-
-<div class="slider-area">
-  <!-- <h1>Apa kata mereka</h1>   -->
-<div class="container">
-  
-<div id="carouselExampleCaptions1" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions1" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions1" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions1" data-slide-to="2"></li>
-  </ol>
-  
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-
-    <div class="img-area ">
-    
-    <img src="img/6.png" alt="" class="">
-    </div>
-          
-      <div class="carousel-caption d-none d-block row " id="caption">
-      <h1 style="position:absolute; top:0; ; " class="text-center float-fluid  w-300 pb-3"><span class="col-auto test1 " style="margin-left: 430px">apa kata mereka?</span></h1>
-      <p style="position:absolute; top:0; margin-left: 10px; margin-top:100px; font-weight:200 font-size:20px;" class="text-center ">
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor, numquam quae nemo fuga consectetur ullam exercitationem officia sit tempore esse aliquid recusandae quod natus ipsum odio nihil ut inventore?"</p>
-      <h5 class="font-weight-bold"><span>Ahmad</span></h5>
-        <p>Ketua umum ishlah 2012</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    <div class="img-area">
-    <img src="img/6.png" alt="">
-    </div>
-      
-      <div class="carousel-caption d-none d-block" id="caption">
-      <h1 style="position:absolute; top:0; margin-left: 430px; " class="text-center "><span class="test1 mt-5">apa kata mereka?</span></h1>
-      <p style="position:absolute; top:0; margin-left: 10px; margin-top:100px; font-weight:200 font-size:20px;" class="text-center ">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor, numquam quae nemo fuga consectetur ullam exercitationem officia sit tempore esse aliquid recusandae quod natus ipsum odio nihil ut inventore?"</p>
-      <h5 class="font-weight-bold"><span>Ahmad</span></h5>
-        <p>Ketua umum ishlah 2011</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    <div class="img-area">
-    <img src="img/6.png" alt="">
-    </div>
-      
-      <div class="carousel-caption d-none d-block" id="caption">
-      <h1 style="position:absolute; top:0; margin-left: 430px; " class="text-center "><span class="test1 mt-5">apa kata mereka?</span></h1>
-      <p style="position:absolute; top:0; margin-left: 10px; margin-top:100px; font-weight:200 font-size:20px;" class="text-center ">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor, numquam quae nemo fuga consectetur ullam exercitationem officia sit tempore esse aliquid recusandae quod natus ipsum odio nihil ut inventore?"</p>
-      <h5 class="font-weight-bold"><span>Ahmad</span></h5>
-        <p class="">Ketua umum ishlah 2011</p>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions1" role="button" data-slide="prev" style="    background: transparent;
-">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions1" role="button" data-slide="next"    style=" background: transparent;"
->
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-</div>
-
-</div>
-
-
-    <!-- akhir statement -->
-
-  <!-- awal artikel -->
-<section class="artikel1 pb-5 mb-5">
-<div class="container "> 
-  <div class="row pt-5 pb-4">
-    <div class="col font-weight-bold text-center">
-      <h1>ARTIKEL</h1>
-    </div>
-  </div>
-<div class="row">
-  <div class="col-sm-12 col-md-12 col-lg-4">
-<div class="card" >
-  
-  <img class="card-img-top" src="img/masjid.png" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">"One day one hadist : Keutamaan 
-baca Al-Qur'an"</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-sm-12 col-md-12 col-lg-4">
-<div class="card" >
-  
-  <img class="card-img-top" src="img/masjid.png" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">"One day one hadist : Keutamaan 
-baca Al-Qur'an"</p>
-    </div>
-    </div>
-    </div>
-  
-    <div class="col-sm-12 col-md-12 col-lg-4">
-<div class="card" >
-  
-  <img class="card-img-top" src="img/masjid.png" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">"One day one hadist : Keutamaan 
-baca Al-Qur'an"</p>
-    </div>
-    </div>
-    </div>
-  
-    </div>  
-</div>
-</section>
-
-
-  <!-- akhir artikel -->
-
-
-
-<!-- awal tentang -->
-<section class="video">
-<div class="container pt-5 pb-5">
-
-<div class="row">
-  <div class="col-sm-12 col-md-12 col-lg-6">
-    <h1>TENTANG LDK ISHLAH</h1>
-    <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam iure magnam a expedita tempore. Repellat nostrum ipsa officiis nobis ducimus, sed debitis ut quas alias sequi temporibus amet. Quisquam, est. Ratione alias dignissimos quod, sequi inventore velit, libero voluptatibus voluptas laboriosam quas molestias! Blanditiis quibusdam, sint fugiat iure debitis laboriosam.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque tempore explicabo tenetur voluptate ullam nihil suscipit non id aliquid quos. A laboriosam laborum dignissimos voluptates ex, quidem nulla at alias?</p>
-
-  </div>
-  <div class="col-sm-12 col-md-12 col-lg-6">
-    <p><span class="videocapt"> Video Profile Ishlah<span></p>
-    
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ke28sLoHNH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class=""></iframe>
-  </div>
-</div>
-</div>
-
-
-</section>
-<!-- akhir tentang -->
 
 <!-- footer -->
 <footer class="footer"> 
@@ -360,15 +264,15 @@ Indonesia </p>
 <p >Copyright 2020 by Sistem Informasi Y.A.I</p>
 </div>
 <div class="col  pt-4  ">
-    <img src="img/fb.png" alt="">
-    <img src="img/ig.png" alt="">
+    <img src="img/ig.png" alt=""> 
+    <img src="img/fb.png" alt="">    
     <img src="img/twitter.png" alt="">
 </div>
 </div>
 </div>
 
 
-</footer
+</footer>
 
 <!-- akhir footer -->
 
